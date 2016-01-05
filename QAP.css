@@ -22,6 +22,11 @@ li a:hover {
 }
 
 li a.active {
-    background-color: #4CAF50;
+    background-color: #0066ff;
     color: white;
+}
+
+.yu {
+    width: 150px;
+    float: right;
 }
