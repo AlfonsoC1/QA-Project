@@ -15,6 +15,11 @@ li a {
 
 }
 
+#vName {
+    float:right;
+}
+
+
 /* Change the link color on hover */
 li a:hover {
     background-color: #555;
