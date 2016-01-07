@@ -32,6 +32,15 @@ li a.active {
 }
 
 .yu {
-    width: 150px;
-    float: right;
+    width: 350px;
+    padding-left: 25px;
+    padding-bottom: 50px;    
+}
+
+#logIn {
+    font-family: sans-serif;
+}
+
+.opp {
+    margin-left: 25px;
 }

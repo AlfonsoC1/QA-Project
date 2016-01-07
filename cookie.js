@@ -50,3 +50,8 @@ function eraseCookie(name) {
 function showCookie() {
 	alert(document.cookie)
 }
+
+
+
+
+
