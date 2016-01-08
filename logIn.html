@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="logIn.css">
+	<script type="text/javascript" src="logIn.js"></script>
+</head>
+<body>
+
+<img class="logIn" src="YU.png">
+
+<span id="vName"><script>readCookie('myCookie')</script></span>
+
+<form name="frmLogin" id="logIn">
+	Enter Your Name to Log In: <input type="text" name="fname" size="20" placeholder="First, Last">
+	<input type="button" Value="Set to Cookie" onClick="createCookie('myCookie',frmLogin.fname.value)"><br>
+	<input type="button" Value="Debug: Show Cookies" onClick="showCookie()">
+</form>
+
+
+
+
+</body>
+</html>
