@@ -15,6 +15,10 @@ li a {
 
 }
 
+body {
+    background-color: #f7f7f7;
+}
+
 #vName {
     float:right;
 }
@@ -42,5 +46,58 @@ li a.active {
 }
 
 .opp {
-    margin-left: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
+
+h1 {
+    text-align: center;
+}
+
+.yuba {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+p {
+    border-style: block;
+    margin-left: 250pt;
+    margin-right: 250pt;
+    text-align: center;
+    font-size: 15pt;
+}
+
+.AC {
+    font-family: sans-serif;
+}
+
+.check {
+    padding-bottom: 20px;
+}
+
+.sf {
+    width: 1000px;
+}
+
+.ol {
+    display: block;
+    list-style-position: inside;
+    text-align: center;
+    font-size: 13pt;
+}
+
+.icon {
+    width: 220px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+}
+
