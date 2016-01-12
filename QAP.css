@@ -71,6 +71,8 @@ p {
 
 .AC {
     font-family: sans-serif;
+    background-color: #224096;
+    padding: 1px;
 }
 
 .check {
@@ -100,4 +102,22 @@ table, th, td {
 th, td {
     padding: 15px;
 }
+
+.links {
+	width: 50px;
+}
+
+h2 {
+	text-align: center;
+}
+
+hr {
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+.C {
+	color: white;
+}
+
 
