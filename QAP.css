@@ -15,6 +15,10 @@ li a {
 
 }
 
+body {
+    background-color: #f7f7f7;
+}
+
 #vName {
     float:right;
 }
@@ -42,5 +46,88 @@ li a.active {
 }
 
 .opp {
-    margin-left: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
+
+h1 {
+    text-align: center;
+}
+
+.yuba {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+p {
+    border-style: block;
+    margin-left: 250pt;
+    margin-right: 250pt;
+    text-align: center;
+    font-size: 15pt;
+}
+
+.AC {
+    font-family: sans-serif;
+    background-color: #224096;
+    padding: 1px;
+}
+
+.check {
+    padding-bottom: 20px;
+}
+
+.sf {
+    width: 1000px;
+}
+
+.ol {
+    display: block;
+    list-style-position: inside;
+    text-align: center;
+    font-size: 14pt;
+}
+
+.icon {
+    width: 220px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+}
+
+.links {
+	width: 50px;
+}
+
+h2 {
+	text-align: center;
+}
+
+hr {
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+.C {
+	color: white;
+}
+
+.intern {
+	width: 750px;
+	float: right;
+	margin: 0 0 10px 10px;
+}
+
+.tools {
+    width: 220px;
+    margin-left: 150px;
+}
+
