@@ -120,4 +120,8 @@ hr {
 	color: white;
 }
 
-
+.intern {
+	width: 750px;
+	float: right;
+	margin: 0 0 10px 10px;
+}
