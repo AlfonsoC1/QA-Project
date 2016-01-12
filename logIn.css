@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 body {
 	background-color: #224096;
 }
@@ -18,25 +18,4 @@ body {
 	margin-left: 380px;
     width: 90%;
     padding: 10px;
-=======
-body {
-	background-color: #224096;
-}
-
-.logIn {
-	margin-left: 20px;
-    width: 90%;
-    padding: 10px;
-    margin-top: 110px;
-}
-
-#vName {
-    float: right;
-    }
-
-#logIn {
-	margin-left: 380px;
-    width: 90%;
-    padding: 10px;
->>>>>>> origin/master
 }
