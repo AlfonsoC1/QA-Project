@@ -9,7 +9,17 @@ function createCookie(name,value) {
 		return false;
 		}
 	// ***** perform additional error checking here 
-	
+	var status = false;     
+	var emailRegEx = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i;
+	     if (document.frmLogin.email.value.search(emailRegEx) == -1) {
+	          alert("Please enter a valid email address.");
+	     }
+	     else {
+	          alert("Thank you for logging in.");
+	          window.location.reload();
+	          status = true;
+	     }
+
 	document.cookie = name+"="+value+"; path=/";
 	location.reload();   // reloading the page causes the cookie and logout link to be displayed on the page
 }
@@ -50,5 +60,13 @@ function eraseCookie(name) {
 // Remove the 'Show Cookies' button from the page after debugging
 function showCookie() {
 	alert(document.cookie)
+}
+
+function eraseLogin(name) {
+	document.forms["frmLogin"].fname.value=''; location.reload(); 
+}
+
+function eraseEmail(email) {
+	document.forms["frmLogin"].email.value=''; location.reload(); 
 }
 

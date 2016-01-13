@@ -9,6 +9,8 @@ function createCookie(name,value) {
 		}
 	// ***** perform additional error checking here 
 	
+
+
 	document.cookie = name+"="+value+"; path=/";
 	location.reload();   // reloading the page causes the cookie and logout link to be displayed on the page
 }
