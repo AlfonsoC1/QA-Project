@@ -130,6 +130,10 @@ hr {
 
 .tools {
     width: 220px;
-    margin-left: 150px;
+    margin-left: 230px;
 }
 
+.table td {
+    padding: 5px;
+    
+}
