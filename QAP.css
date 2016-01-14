@@ -134,6 +134,9 @@ hr {
 }
 
 .table td {
-    padding: 5px;
-    
+    border: none;
+}
+
+.table {
+    margin-left: 95px;
 }
